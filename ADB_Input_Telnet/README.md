@@ -27,7 +27,7 @@ Una vez ejecutado el archivo main.java, por medio de la consola se solicitarán 
 
 ![commands](https://github.com/jhrubiano10/Taller_07_MISO_4208_ADB_Input_Telnet_Espresso/blob/master/ADB_Input_Telnet/img/comandos.gif?raw=true)
 
-## Aplicaciones Probadas.
+### Aplicaciones Probadas.
 
 Se han utilizado las aplicaciones:
 
@@ -36,25 +36,25 @@ Se han utilizado las aplicaciones:
 
 Las Apks de las mismas se encuentran dentro del directorio **[apks]**
 
-## Orden de ejecución de los comandos.
+### Orden de ejecución de los comandos.
 
 Dependiendo de la selección de comandos a probar, cada comando se ejecutará en un orden aleatorio, la ejecución se hace por medio de dos ciclos infinitos ```while(true)``` el ciclo interior generará un número aleatorio relacionado al número del evento a realizar, sí este ha sido seleccionado se ejecuta, una vez se ha completado la ejecución [de todos los comandos sin repetir] se realiza un nuevo ciclo, hasta completar la [totalidad de número de eventos establecidos].
 
-## Ejecución Loop Habit Tracker
+### Ejecución Loop Habit Tracker
 
 ![Habit](https://github.com/jhrubiano10/Taller_07_MISO_4208_ADB_Input_Telnet_Espresso/blob/master/ADB_Input_Telnet/img/habitos_gif.gif?raw=true)
 
 https://youtu.be/bAKvqKqY-mI
 
 
-## Ejecución Antennapod
+### Ejecución Antennapod
 
 ![Antennapod](https://github.com/jhrubiano10/Taller_07_MISO_4208_ADB_Input_Telnet_Espresso/blob/master/ADB_Input_Telnet/img/antennaPod_gif.gif?raw=true)
 
 https://youtu.be/WpjgP7PTm_k
 
 
-# Fuentes.
+### Fuentes.
 
 * [Android: Setting network latency]
 * [ADB Shell Input Events]
