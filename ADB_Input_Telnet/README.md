@@ -22,7 +22,7 @@ El archivo ***[main.java]*** contiene el código necesario para la ejecución de
 Una vez ejecutado el archivo main.java, por medio de la consola se solicitarán los datos de:
 
 1. Número de eventos a realizar.
-2. Aplicación a probar, depenede de la configuración de las APKs
+2. Aplicación a probar, depende de la configuración de las APKs
 3. Comandos a ejecutar.
 
 ![commands](https://github.com/jhrubiano10/Taller_07_MISO_4208_ADB_Input_Telnet_Espresso/blob/master/ADB_Input_Telnet/img/comandos.gif?raw=true)
@@ -38,7 +38,7 @@ Las Apks de las mismas se encuentran dentro del directorio **[apks]**
 
 ## Orden de ejecución de los comandos.
 
-Dependiendo de la selección de comandos a probar, cada comando se ejecutará en un orden aleatorio, la ejecución se hace por medio de dos ciclos infinitos ```while(true)``` el ciclo interior generará un número aleatorio relacionado al número del evento a realizar, sí este ha sido seleccionado se ejecutar, una vez se ha completado la ejecución [de todos los comandos sin repetir] se realiza un nuevo ciclo, hasta completar la totalidad de número de eventos establecidos.
+Dependiendo de la selección de comandos a probar, cada comando se ejecutará en un orden aleatorio, la ejecución se hace por medio de dos ciclos infinitos ```while(true)``` el ciclo interior generará un número aleatorio relacionado al número del evento a realizar, sí este ha sido seleccionado se ejecuta, una vez se ha completado la ejecución [de todos los comandos sin repetir] se realiza un nuevo ciclo, hasta completar la [totalidad de número de eventos establecidos].
 
 ## Ejecución Loop Habit Tracker
 
@@ -79,3 +79,4 @@ MIT
 [Loop Habit Tracker]:https://github.com/iSoron/uhabits
 [Antennapod]:https://f-droid.org/packages/de.danoeh.antennapod/
 [apks]:https://github.com/jhrubiano10/Taller_07_MISO_4208_ADB_Input_Telnet_Espresso/tree/master/ADB_Input_Telnet/apks
+[totalidad de número de eventos establecidos]:https://github.com/jhrubiano10/Taller_07_MISO_4208_ADB_Input_Telnet_Espresso/blob/master/ADB_Input_Telnet/main.java#L271
